@@ -84,7 +84,7 @@ h1.h1_sec_1{
     width:100%;
     margin: 50px auto;
 height: 100vh;
-background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0.356) 100%), url(../images/Vectorrr.png);
 
 
 
@@ -107,6 +107,7 @@ object-fit:cover ;}
     /* margin: 50px auto; */
     flex-wrap: wrap;
     /* margin: 10px auto; */
+   
 
 }
 .celebration_left_child{
@@ -144,6 +145,112 @@ padding: 20px 0px;
     background-color: transparent;
     border-style: none;
     color: rgb(255, 255, 255);
-    padding: 20px 0px;
+    padding: 20px 15px;
     cursor: pointer;
+}
+
+.personal_info{ border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    text-align:center;
+    padding: 100px 300px;
+    margin: 30px 0px;
+
+}
+.info{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+}
+.info strong{
+    color: rgb(255, 0, 0);
+}
+.info_btn{
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.offer_sec{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+}
+.offer_child_1 {
+    flex-basis: 27%;
+}
+.offer_child_2  img{
+    flex-basis: 30%;
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+padding: 20px;
+text-align: center;
+}
+.offer_child_3 {
+    flex-basis: 25%;
+}
+.h4_sec_offer{ color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+}
+.h1_sec_offer{
+        color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size:30px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+    }
+.p_sec_offer{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.last_se_h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.last_se_p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+.offer_child_3{
+margin-right: 0px;
+text-align: left;
+padding-left: 50px;
+
+}
+.img_last_se{
+padding-top: 30px;
 }
