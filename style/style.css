@@ -42,7 +42,7 @@ body{
     line-height: 40px;
     font-weight: 500;
 }
- .main_part{
+ .main_part  {
     width:90%;
     margin: 50px auto;
     
@@ -366,7 +366,7 @@ margin-bottom: 30px;
 }
 .card_parent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -440,4 +440,62 @@ font-weight: 600;
 
 text-align: center;
 text-transform: capitalize;
+}
+.footer_con{
+    background: rgb(7, 2, 17);
+    color: rgb(255, 255, 255);
+}
+.Footer_fi_div{
+    display: flex;
+     justify-content: space-around;
+     
+}
+.footer_main_div  {
+    width:90%;
+    margin: 70px;
+    
+}
+.footer_main_div{
+
+    padding:80px  0px;
+}
+
+.fo_P{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+/* background-color: yellow; */
+}
+.socal_log{
+    text-align: center;
+    margin-top: 70px;
+}
+.socal_log ul{
+    list-style: none;
+}
+.socal_log ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.socal_log ul li a img{
+    width: 30px;
+    height: 31px;
+    /* padding: 20px; */
+}
+.last_footer_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+.icon_img{
+    width: 24px;
+    height: 24px;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    /* background-color: red; */
+  text-align: center;
 }
