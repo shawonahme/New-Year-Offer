@@ -11,7 +11,7 @@ body{
 .hero{
     font-family: "Merriweather", serif;
     background-image:linear-gradient(180.00deg, rgba(6, 2, 15, 0.89),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
-   
+    border-radius: 16px;
     width:90%;
     margin: 50px auto;
     height: 100vh;
@@ -43,13 +43,14 @@ body{
     font-weight: 500;
 }
  .main_part{
-    width:80%;
+    width:90%;
     margin: 50px auto;
+    
 }
 .sec_1{
     text-align: center;
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -80,15 +81,69 @@ h1.h1_sec_1{
 
 }
 .celebration{ font-family: "Merriweather", serif;
-background-image:linear-gradient(180.00deg, rgba(6, 2, 15, 0.89),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
-
-width:90%;
-margin: 50px auto;
+    width:100%;
+    margin: 50px auto;
 height: 100vh;
-background-position: center;
-background-size: cover;
+background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+
+
+
+background-position:center;
+background-size:cover ;
 display: flex;
 justify-content: center;
 background-repeat: no-repeat;
 align-items: center;
+border-radius: 16px;
+border-radius: 16px;
+
+
 object-fit:cover ;}
+.celebration{
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+  
+    /* margin: 50px auto; */
+    flex-wrap: wrap;
+    /* margin: 10px auto; */
+
+}
+.celebration_left_child{
+  
+    color: white;
+    flex-basis: 50%;
+}
+.clebration_right_child{
+
+}
+.cele_h1_sec{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 50px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+padding: 20px 0px;
+
+
+}
+.cele_sec_p{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.cele_btn{
+
+    background-color: transparent;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    cursor: pointer;
+}
